@@ -1,4 +1,4 @@
-FROM python:3.8.12-slim 
+FROM python:3.8-slim 
 
 ## Ensure all output is sent directly to stdout without any buffering
 ENV PYTHONUNBUFFERED 1
